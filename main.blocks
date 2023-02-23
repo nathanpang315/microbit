@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="+zL-4-6Q/QsdLIV._R/q" x="233" y="-49"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_clear_display" id=";)[i~*57]`).ReOny^rZ"><next><block type="device_show_number" id="5!^aUN0|Jaa2tK=Au1VJ"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="nPW[dXFjE=km^6)K8$_Y"><field name="OP">MULTIPLY</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="+t/N=$`C:soHSKLxJjO:"><field name="name">DigitalPin.P0</field></block></value><value name="B"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="4@yWX|@@[4r.6#.WFm.A"><field name="OP">DIVIDE</field><value name="A"><shadow type="math_number" id="dcY0QP$VegbL3s6g{/8Y"><field name="NUM">3</field></shadow></value><value name="B"><shadow type="math_number" id="Vpt.:;w1!BqwkIT~V3B6"><field name="NUM">1023</field></shadow></value></block></value></block></value><next><block type="device_show_leds" id="vG=^y.G#kU}M4M!aiz3f"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></next></block></next></block></statement></block><block type="pxt-on-start" id="xYX~*6gBb@mz4S(~AEQb" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="]CCy.t]J;p%GT~@ggKyn"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement></block></xml>
